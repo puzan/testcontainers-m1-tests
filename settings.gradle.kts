@@ -1,2 +1,2 @@
-rootProject.name = "testcontainters-m1-tests"
+rootProject.name = "testcontainers-m1-tests"
 
