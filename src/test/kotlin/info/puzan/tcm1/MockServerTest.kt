@@ -41,7 +41,7 @@ class MockServerTest {
                 Wait.forHttp("/mockserver/status")
                     .withMethod("PUT")
                     .forStatusCode(200)
-                    .withStartupTimeout(Duration.ofSeconds(60))
+                    .withStartupTimeout(Duration.ofSeconds(10))
             )
             .use { mockServer ->
                 mockServer.start()
